@@ -1,0 +1,17 @@
+<?php
+class produk{
+    public $namaBarang="Laptop",
+                $merk="Lenovo",
+                    $harga=7000000;
+}
+$produk1 = new produk();
+$produk2 = new produk();
+$produk2 ->namaBarang="Mouse";
+$produk2 ->merk="Logitech";
+$produk2 ->harga=100000;
+
+var_dump($produk1);
+echo "<br>";
+var_dump($produk2);
+
+?>
